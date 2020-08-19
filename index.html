@@ -14,26 +14,42 @@
     h3 {
         font-family:optima;
     }
+    h4 {
+        font-family:brushscriptmt;
+        background-color:rgb(8, 189, 209);
+        overflow:auto;
+        width:240px;
+        margin:40px 90px 70px 80px;
+    }
     #first {
      background-color :rgb(26,138,158);
      width:70%;
      height:120px;
      overflow:auto;
      margin:70px 40px 50px 65px;
-     border:8px groove blue;
+     border:8px double blue;
     }
     #second {
         background-color:rgb(245, 142, 183);
         width:50%;
         height:60px;
         overflow:auto;
-        border:8px groove pink ;
+        border:8px double pink ;
     }
     #datitle {
         background-color:white;
         width:60%;
         margin:30px 20px 40px 75px;
-        border:10px groove purple;
+        border:10px double green;
+    }
+    #ice-cream {
+        border: 12px groove rgb(140, 242, 255);
+    }
+    #list {
+        border:double white;
+        width:180px;
+         margin:20px 40px 70px 10px;
+         font-family:copperplate;
     }
 </style>
     <head>
@@ -42,8 +58,16 @@
     </head>
     <body>
 <h1><div id="datitle">Ayaan's Webpage</div></h1>
-    <img src = "https://www.kasandbox.org/programming-images/food/ice-cream.png"width = "180">
+    <img id="ice-cream" src = "https://www.kasandbox.org/programming-images/food/ice-cream.png"width = "180">
     <h2><div id="first">Hi! I am <em>Ayaan</em>. This webpage is about me and a few things I like. First of all my address is <em>1729 Paseo Del Cajon</em>. I live in <em>Pleasanton, California</em>. I am 10 years old.</div></h2>
 <h3><div id="second">I love playing outside. I like basketball, baseball and soccer. I also love playing video games. I have a nintendo switch. My favorite game is NBA 2k19.</div></h3>
+<h4>Here Are Some Of The toys I Like</h4>
+<ol><div id="list">
+    <li>Basketball hoop</li>
+    <li>Nintendo Switch</li>
+    <li>Hoverboard</li>
+    <li>Bike</li>
+</div>    
+</ol>
     </body>
 </html>
